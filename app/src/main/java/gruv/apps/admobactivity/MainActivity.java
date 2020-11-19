@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         // Disable the next level button
         mNextLevelButton.setEnabled(false);
 
-        // load the ad.
+        // Load the ad.
         AdRequest adRequest = new AdRequest.Builder().setRequestAgent("android_studio:ad_template").build();
         mInterstitialAd.loadAd(adRequest);
     }
